@@ -10,9 +10,23 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    var waveView: AnimatedWaveView?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        self.view.backgroundColor = UIColor.blue
+        buildWaveView()
+    }
+    
+    func buildWaveView() {
+        let animatedWaveView = AnimatedWaveView(frame: self.view.bounds)
+        self.view.addSubview(animatedWaveView)
+        waveView = animatedWaveView
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        waveView?.makeWaves()
     }
 
     override func didReceiveMemoryWarning() {
@@ -20,6 +34,13 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    override var prefersStatusBarHidden: Bool {
+        return true
+    }
+    
+    override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
+        return .portrait
+    }
 
 }
 

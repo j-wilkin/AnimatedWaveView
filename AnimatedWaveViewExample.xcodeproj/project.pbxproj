@@ -14,6 +14,9 @@
 		935F84502049E3BF00814A09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 935F844E2049E3BF00814A09 /* LaunchScreen.storyboard */; };
 		935F845B2049E3BF00814A09 /* AnimatedWaveViewExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935F845A2049E3BF00814A09 /* AnimatedWaveViewExampleTests.swift */; };
 		935F84662049E3BF00814A09 /* AnimatedWaveViewExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935F84652049E3BF00814A09 /* AnimatedWaveViewExampleUITests.swift */; };
+		935F84742049E3E000814A09 /* AnimatedWaveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935F84732049E3E000814A09 /* AnimatedWaveView.swift */; };
+		935F84762049E44D00814A09 /* RadialGradientLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935F84752049E44D00814A09 /* RadialGradientLayer.swift */; };
+		935F84782049E6EB00814A09 /* PathBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935F84772049E6EB00814A09 /* PathBuilder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		935F84612049E3BF00814A09 /* AnimatedWaveViewExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimatedWaveViewExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		935F84652049E3BF00814A09 /* AnimatedWaveViewExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedWaveViewExampleUITests.swift; sourceTree = "<group>"; };
 		935F84672049E3BF00814A09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		935F84732049E3E000814A09 /* AnimatedWaveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedWaveView.swift; sourceTree = "<group>"; };
+		935F84752049E44D00814A09 /* RadialGradientLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadialGradientLayer.swift; sourceTree = "<group>"; };
+		935F84772049E6EB00814A09 /* PathBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathBuilder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,9 @@
 			children = (
 				935F84452049E3BF00814A09 /* AppDelegate.swift */,
 				935F84472049E3BF00814A09 /* ViewController.swift */,
+				935F84732049E3E000814A09 /* AnimatedWaveView.swift */,
+				935F84772049E6EB00814A09 /* PathBuilder.swift */,
+				935F84752049E44D00814A09 /* RadialGradientLayer.swift */,
 				935F84492049E3BF00814A09 /* Main.storyboard */,
 				935F844C2049E3BF00814A09 /* Assets.xcassets */,
 				935F844E2049E3BF00814A09 /* LaunchScreen.storyboard */,
@@ -259,8 +268,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				935F84762049E44D00814A09 /* RadialGradientLayer.swift in Sources */,
 				935F84482049E3BF00814A09 /* ViewController.swift in Sources */,
+				935F84742049E3E000814A09 /* AnimatedWaveView.swift in Sources */,
 				935F84462049E3BF00814A09 /* AppDelegate.swift in Sources */,
+				935F84782049E6EB00814A09 /* PathBuilder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,6 +441,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YB65KBNGN6;
 				INFOPLIST_FILE = AnimatedWaveViewExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.s23NYC.AnimatedWaveViewExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -444,6 +457,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YB65KBNGN6;
 				INFOPLIST_FILE = AnimatedWaveViewExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.s23NYC.AnimatedWaveViewExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
