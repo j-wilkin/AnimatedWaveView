@@ -1,2 +1,27 @@
 # AnimatedWaveView
-A reusable animated wave view built in Swift
+
+[![Platform](https://img.shields.io/cocoapods/p/TableViewTools.svg?style=flat)](http://cocoapods.org/pods/LFAlertController)
+[![Swift Version](https://img.shields.io/badge/swift-4.0-orange.svg)](https://swift.org/)
+
+A example project for AnimatedWaveView: an interactive wave animation view built in Swift. Companion project to the blog post: ...
+
+---
+
+![alt text](https://github.com/j-wilkin/AnimatedWaveView/blob/master/animatedwaves.gif "Animated Waves")
+
+---
+
+## Requirements
+
+- iOS 10.0+
+- Xcode 9.0+
+
+## Authors
+
+- Jason Wilkin
+
+---
+
+## License
+
+Product Name is available under the MIT license. See the LICENSE file for more info.
