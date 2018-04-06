@@ -20,8 +20,6 @@ A example project for AnimatedWaveView: an interactive wave animation view built
 
 - Jason Wilkin
 
----
-
 ## License
 
-Product Name is available under the MIT license. See the LICENSE file for more info.
+[MIT licensed](LICENSE)
